@@ -1,0 +1,23 @@
+   {
+      "Entity_Type": "EMAIL2",
+      "Classifier": "email",
+      "Regex": "\\b[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\\.[A-Za-z]{2,}\\b",
+      "Keywords": ["email","email_id"],
+      "Scope": "Global",
+      "Class": "PATTERN",
+      "Pid_Category": "True",
+      "Priority": 1
+    },
+    {
+      "Entity_Type": "EMAIL",
+      "Regex": "\\b[A-Za-z0-9._+-]+@[A-Za-z0-9-]+\\.[A-Za-z0-9-.]+\\b",
+      "Keywords": ["email","email_id"],
+      "Scope": "Global",
+      "Class": "PATTERN",
+      "Pid_Category": "True",
+      "Priority": 1,
+      "Severity": "medium"
+    },
+    
+    
+    2295
